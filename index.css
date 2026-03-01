@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #00a651;
+  --color-primary-hover: #008c44;
+  --color-secondary: #f36d21;
+  --color-accent: #ffc107;
+}
+
+:root {
+  --brand-primary: #00a651;
+  --brand-secondary: #f36d21;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #f4f7f6;
+}
+
+.btn-primary {
+  @apply bg-primary text-white px-6 py-2 rounded-lg font-semibold transition-all hover:bg-primary-hover;
+}
+
+.card-shadow {
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.05);
+}

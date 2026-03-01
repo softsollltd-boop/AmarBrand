@@ -1,0 +1,7 @@
+{
+  "name": "Amar Brand",
+  "description": "Premium Fashion & Lifestyle Brand",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
